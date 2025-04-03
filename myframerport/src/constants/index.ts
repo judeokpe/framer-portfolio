@@ -1,16 +1,17 @@
-import projects1 from "../assets/projects1.webp";
-import projects2 from "../assets/projects2.webp";
-import projects3 from "../assets/projects3.webp";
-import projects4 from "../assets/projects4.webp";
-import projects5 from "../assets/projects5.webp";
-import projects6 from "../assets/projects6.webp";
+import projects1 from "../assets/heroimg.webp";
+import projects2 from "../assets/marketing.webp";
+import projects3 from "../assets/mobileapp.webp";
+import projects4 from "../assets/herobest.webp";
+import projects5 from "../assets/breadhome.jpg";
+import projects6 from "../assets/breadprogram.jpg";
 
-import person1 from "../assets/person1.webp";
-import person2 from "../assets/person2.webp";
-import person3 from "../assets/person3.webp";
-import person4 from "../assets/person4.webp";
-import person5 from "../assets/person5.webp";
-import person6 from "../assets/person6.webp";
+import person1 from "../assets/jude.jpg";
+import person2 from "../assets/jude.jpg";
+import person3 from "../assets/jude.jpg";
+import person4 from "../assets/jude.jpg";
+import person5 from "../assets/jude.jpg";
+import person6 from "../assets/jude.jpg";
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export const LINKS = [
   { href: "#work", label: "Work" },
@@ -32,83 +33,83 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
-    name: "Streamerzz",
-    description: "Live stream management tool for content creators",
+    name: "SparkleSky Cleaning website ",
+    description: "A fullstack website for taking quota and managing cleaning services",
     image: projects1,
-    link: "https://github.com/your-github/streamerzz",
+    link: "https://github.com/judeokpe/cleanerweb",
   },
   {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
+    name: "Digital Agency Website",
+    description: "A platform that provide services for engaging potential client and bootcamp",
     image: projects2,
-    link: "https://github.com/your-github/nutritrack",
+    link: "https://github.com/judeokpe/portfolio",
   },
   {
-    name: "HairRevive",
-    description: "A platform for hair regrowth solutions powered by science",
+    name: "Saletick",
+    description: "A backend services for managing Inventory",
     image: projects3,
-    link: "https://github.com/your-github/hairrevive",
+    link: "https://github.com/judeokpe/saletcik",
   },
   {
-    name: "DevDeck",
+    name: "LandTePay",
     description:
-      "Interactive dashboard for developers to track coding activity",
+      "A backend services that manage landlord-tenant operations",
     image: projects4,
-    link: "https://github.com/your-github/devdeck",
+    link: "https://github.com/judeokpe/landord-tenant-management",
   },
   {
     name: "FitConnect",
     description: "Fitness social network to connect athletes and trainers",
     image: projects5,
-    link: "https://github.com/your-github/fitconnect",
+    link: "#",
   },
   {
     name: "WellNest",
     description: "A wellness app for mental and physical health improvement",
     image: projects6,
-    link: "https://github.com/your-github/wellnest",
+    link: "#",
   },
 ];
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from single-page applications to complex multi-tiered systems, always ensuring high performance and seamless user experiences.",
-    "I specialize in using technologies like React, Next.js, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
+ "I am a dedicated full-stack tech developer with a passion for building modern, high-performance applications that are both functional and aesthetically pleasing. Over the years, I have worked on a wide range of projects, from single-page applications to complex, scalable systems, ensuring seamless user experiences and efficient backend operations.",
+
+"I specialize in technologies like React, Next.js, and Tailwind CSS for building dynamic frontends, while leveraging Node.js, Django, and databases like PostgreSQL and MongoDB for robust backend development. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to develop scalable, secure, and efficient solutions. I thrive in environments that challenge me to continuously learn and innovate."
   ],
 };
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 — Now",
-    title: "Senior Frontend Engineer at TechCorp",
-    location: "Paris, France",
-    description: [
-      "Leading the development of scalable frontend architecture for enterprise-level applications.",
-      "Collaborating with cross-functional teams to deliver high-quality, user-centric solutions.",
-      "Driving innovation through continuous improvements in performance and UI/UX design.",
-    ],
-  },
-  {
-    yearRange: "2021 — 2023",
-    title: "Frontend Engineer at Startup Inc.",
+    yearRange: "2024 — Present",
+    title: "Backend Developer at Nanocode Programming Limited",
     location: "Remote",
     description: [
-      "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
-      "Spearheaded frontend optimization efforts, resulting in a 40% performance boost.",
-      "Mentored junior developers and led internal frontend workshops.",
+      "Developing scalable RESTful APIs using Node.js and Django, handling over 100,000 requests daily.",
+      "Optimizing database queries, improving response time by 30%.",
+      "Enhancing application security by implementing JWT-based authentication.",
     ],
   },
   {
-    yearRange: "2018 — 2021",
-    title: "Frontend Developer at Creative Solutions",
-    location: "London, UK",
+    yearRange: "2022 — 2023",
+    title: "Web Development Tutor at Digital Dream ICT Academy",
+    location: "Remote",
     description: [
-      "Developed and maintained user interfaces for high-traffic websites.",
-      "Worked closely with designers to implement pixel-perfect designs.",
-      "Optimized websites for SEO and performance, resulting in a 30% increase in traffic.",
+      "Trained over 100 students in full-stack development, covering HTML, CSS, JavaScript, PHP, React, and Python.",
+      "Designed real-world projects to provide hands-on learning experiences.",
+    ],
+  },
+  {
+    yearRange: "2021 — 2022",
+    title: "Website Development Lead at Prince Dike",
+    location: "Remote",
+    description: [
+      "Led a team in developing and maintaining WordPress-based applications.",
+      "Provided technical support and conducted training programs for junior developers.",
     ],
   },
 ];
+
 
 export const TESTIMONIALS = [
   {
@@ -165,19 +166,19 @@ export const CONTACT_CONTENT = {
       platform: "Twitter",
       url: "https://twitter.com/yourprofile",
       ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill",
+      icon: FaXTwitter
     },
     {
       platform: "GitHub",
       url: "https://github.com/yourprofile",
       ariaLabel: "View my GitHub profile",
-      icon: "RiGithubFill",
+      icon: FaGithub,
     },
     {
       platform: "LinkedIn",
       url: "https://linkedin.com/in/yourprofile",
       ariaLabel: "Connect with me on LinkedIn",
-      icon: "RiLinkedinFill",
+      icon: FaLinkedin,
     },
   ],
   footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`,
